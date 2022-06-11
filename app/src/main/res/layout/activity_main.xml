@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonOne"
+            style="@style/ButtonStyle"
+            tools:text="1" />
+
+
+        <Button
+            android:id="@+id/buttonTwo"
+            style="@style/ButtonStyle"
+            tools:text="2" />
+
+        <Button
+            android:id="@+id/buttonThree"
+            style="@style/ButtonStyle"
+            tools:text="3" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonFour"
+            style="@style/ButtonStyle"
+            tools:text="4" />
+
+
+        <Button
+            android:id="@+id/buttonFive"
+            style="@style/ButtonStyle"
+            tools:text="5" />
+
+        <Button
+            android:id="@+id/buttonSix"
+            style="@style/ButtonStyle"
+            tools:text="6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSeven"
+            style="@style/ButtonStyle"
+            tools:text="7" />
+
+
+        <Button
+            android:id="@+id/buttonEight"
+            style="@style/ButtonStyle"
+            tools:text="8" />
+
+        <Button
+            android:id="@+id/buttonNine"
+            style="@style/ButtonStyle"
+            tools:text="9" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Reset" />
+
+</LinearLayout>
